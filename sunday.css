@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+h1{
+    text-align: center;
+}
+header{
+    background-color: rgb(145, 3, 74);
+   display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+header a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul{
+    display: block;
+    margin: 0 auto;
+    
+}
+nav ul li{
+   list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 30px 20px;
+    color: aliceblue;
+}
+
+.h1 h1{
+font-size: 80px;
+text-align: center;
+}
+@media screen and (max-width: 775px){
+    body{
+        background-color: rgb(12, 71, 12);
+    }
+    .h1 h1{
+        font-size: 40px;
+        color: goldenrod;
+    }
+}
